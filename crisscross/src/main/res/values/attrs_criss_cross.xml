@@ -1,0 +1,8 @@
+<resources>
+    <declare-styleable name="CrissCross">
+        <attr name="cc_bar_width" format="dimension" />
+        <attr name="cc_bar_height" format="dimension" />
+        <attr name="cc_bar_color" format="color" />
+        <attr name="cc_circle_color" format="color" />
+    </declare-styleable>
+</resources>

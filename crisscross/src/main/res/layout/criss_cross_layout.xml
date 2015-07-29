@@ -1,0 +1,25 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:id="@+id/criss_cross_circle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/circle_background">
+
+        <View
+            android:id="@+id/side_a_view"
+            android:layout_width="@dimen/cc_bar_width_dimen"
+            android:layout_height="@dimen/cc_bar_height_dimen"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/rectangle_shape" />
+
+        <View
+            android:id="@+id/side_b_view"
+            android:layout_width="@dimen/cc_bar_width_dimen"
+            android:layout_height="@dimen/cc_bar_height_dimen"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/rectangle_shape" />
+    </RelativeLayout>
+</merge>

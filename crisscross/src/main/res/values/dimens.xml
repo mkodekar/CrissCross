@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="cc_bar_width_dimen">200dp</dimen>
+    <dimen name="cc_bar_height_dimen">50dp</dimen>
+</resources>
