@@ -105,14 +105,6 @@ public class CrissCross extends LinearLayout {
         mSpring.setEndValue(currentEndValue = currentEndValue == 0 ? 1 : 0);
     }
 
-    public void forceCross() {
-        transform(45, -45);
-    }
-
-    public void forceMinus() {
-        transform(0, 0);
-    }
-
     public void animate(double angleA, double angleB) {
 
         // descubrir os angulos actuais e calcular a distancia
@@ -166,8 +158,6 @@ public class CrissCross extends LinearLayout {
         invalidate();
         requestLayout();
     }
-
-
 
 
     private class RotateSpringListener extends SimpleSpringListener {

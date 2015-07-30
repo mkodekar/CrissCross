@@ -1,1 +1,1 @@
-include ':app', ':crisscross', ':sample'
+include ':crisscross', ':sample'

@@ -1,6 +1,5 @@
 package github.cesarferreira.crisscross.sample;
 
-import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
@@ -14,14 +13,12 @@ public class MainActivity extends AppCompatActivity {
     @Bind(R.id.sample_criss_cross)
     CrissCross crissCross;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
         ButterKnife.bind(this);
-        crissCross.setCircleColor(Color.YELLOW);
 
     }
 
