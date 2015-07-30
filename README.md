@@ -3,7 +3,8 @@
 <strong>Android</strong> kit for <strong>cross animations</strong>
 </p>
 <p align="center">
-<img src="https://raw.github.com/cesarferreira/CrissCross/master/extras/minus_cross.gif?raw=true" width="100%" />
+<img src="https://raw.github.com/cesarferreira/CrissCross/master/extras/minus_cross.gif?raw=true" width="300px" />
+<img src="https://raw.github.com/cesarferreira/CrissCross/master/extras/minus_cross.gif?raw=true" width="300px" />
 </p>
 
 # Usage
