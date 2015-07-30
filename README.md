@@ -21,12 +21,6 @@ In your XML:
         crisscross:cc_circle_color="#FF0000" />
 ```
 
-## Manipulate animations
-
-inject dependency:
-```java
-CrissCross crissCross = (CrissCross)findViewById(R.id.someId);
-```
 
 ### Animate to coordinates
 
@@ -35,15 +29,18 @@ usage:
 > `crissCross.animate(float angleForBarA, float angleForBarB)`
 
 ### Examples
-TODO insert gif
+
 #### Cross animation
+TODO insert gif
+
 ```java
 crissCross.animate(45, -45)
 ```
 
 
-TODO insert gif
 #### Plus animation
+TODO insert gif
+
 ```java
 crissCross.animate(90, 180)
 ```
@@ -51,10 +48,8 @@ crissCross.animate(90, 180)
 Etc.
 
 ### Transform to Position
-If you want to move to some angle without the animations:
-```java
-crissCross.transform(90, 180)
-```
+If you want to move to an angle without the animations:
+> `crissCross.transform(angleOfA, angleOfB)`
 
 ## Install
 
